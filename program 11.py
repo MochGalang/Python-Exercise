@@ -1,10 +1,11 @@
-print('='*30)
-print('\tRumus Volume Kubus')
-print('='*30)
+print('='*40)
+print('\tRumus Luas Alas Tabung')
+print('='*40)
 
-s = float(input("Masukkan Panjang Sisi kubus: "))
+phi = 3.14
+r = float(input("Masukkan Jari-jari alas tabung: "))
 
-volume = s**3
+la = phi * r * r
 
-volume = int(volume)
-print('Volume Kubus\t\t   :', volume, 'cm³')
+la = int(la)
+print('Luas Alas Tabung\t      :', la, 'cm²')

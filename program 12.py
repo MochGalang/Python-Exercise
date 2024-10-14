@@ -1,11 +1,11 @@
 print('='*40)
-print('\tRumus Luas Alas Tabung')
+print('\tRumus Keliling Lingkaran')
 print('='*40)
 
 phi = 3.14
-r = float(input("Masukkan Jari-jari alas tabung: "))
+r = float(input("Masukkan Jari-jari lingkaran: "))
 
-la = phi * r * r
+keliling = 2 * phi * r
 
-la = int(la)
-print('Luas Alas Tabung\t      :', la, 'cm²')
+keliling = int(keliling)
+print('Keliling Lingkaran\t    :', keliling, 'cm')

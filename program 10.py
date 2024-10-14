@@ -1,10 +1,10 @@
-print('='*40)
-print('\tRumus Luas Permukaan Kubus')
-print('='*40)
+print('='*30)
+print('\tRumus Volume Kubus')
+print('='*30)
 
 s = float(input("Masukkan Panjang Sisi kubus: "))
 
-lp = 6 * s * s
+volume = s**3
 
-lp = int(lp)
-print('Luas Permukaan Kubus\t   :',lp, 'cm²')
+volume = int(volume)
+print('Volume Kubus\t\t   :', volume, 'cm³')

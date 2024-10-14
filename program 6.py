@@ -1,15 +1,11 @@
 print('='*30)
-print('\tPengecek Umur')
+print('\tRumus Bola')
 print('='*30)
 
-nama = input("Masukkan Nama Anda: ")
-umur = int(input('Masukkan umur Anda: '))
+phi = 3.14
+r = float(input("Masukkan Jari-jari: "))
 
-if umur >= 35:
-   print(f"{nama}, Anda sudah dewasa")
-elif 18 <= umur <= 35:
-   print(f"{nama}, Anda Dewasa Muda")
-elif umur < 18:
-   print(f"{nama}, Anda Belum Dewasa")
-else :
-   print(f"{nama}, Umur Anda tidak valid")
+lp = 4 * phi * r * r
+
+lp = int(lp)
+print('Luas permukaan Bola\t  :',lp,'cm2')

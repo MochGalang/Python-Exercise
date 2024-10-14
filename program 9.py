@@ -1,11 +1,10 @@
-print('='*30)
-print('\tRumus Volume Bola')
-print('='*30)
+print('='*40)
+print('\tRumus Luas Permukaan Kubus')
+print('='*40)
 
-phi = 3.14
-r = float(input("Masukkan Jari-jari bola : "))
+s = float(input("Masukkan Panjang Sisi kubus: "))
 
-volume = (4/3) * phi * r**3
+lp = 6 * s * s
 
-volume = int(volume)
-print('Volume Bola\t\t:', volume, 'cm³')
+lp = int(lp)
+print('Luas Permukaan Kubus\t   :',lp, 'cm²')

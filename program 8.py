@@ -1,12 +1,11 @@
 print('='*30)
-print('\tRumus Tabung')
+print('\tRumus Volume Bola')
 print('='*30)
 
 phi = 3.14
-r = float(input("Masukkan Jari-jari\t: "))
-t = float(input("Masukkan Tinggi\t\t: "))
+r = float(input("Masukkan Jari-jari bola : "))
 
-lp = 2 * phi * r * (t + r)
+volume = (4/3) * phi * r**3
 
-lp = int(lp)
-print('Luas permukaan Tabung\t:',lp,'cm2')
+volume = int(volume)
+print('Volume Bola\t\t:', volume, 'cm³')
